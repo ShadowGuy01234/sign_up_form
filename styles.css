@@ -40,6 +40,14 @@
     isolation: isolate;
   }
 
+
+  /* imported font */
+  .audiowide-regular {
+    font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 .canvas{
     display: flex;
 }
@@ -56,4 +64,10 @@
     background-color: #111D3B;
     width: 60%;
     height: 100vh;
+}
+
+.tagline{
+    color: antiquewhite;
+    font-size: 1.2rem;
+    font-family: "Audiowide", sans-serif;
 }
