@@ -71,3 +71,23 @@
     font-size: 1.2rem;
     font-family: "Audiowide", sans-serif;
 }
+
+label{
+    color: antiquewhite;
+    font-size: 0.9rem;
+    font-family: "Audiowide", sans-serif;
+}
+
+.name, .mail_number, .pass{
+    display: flex;
+    justify-content: space-around;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;  
+    gap: 30px;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;  
+}
