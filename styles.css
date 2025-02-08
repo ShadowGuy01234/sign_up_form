@@ -63,15 +63,22 @@ h6 {
 }
 
 
-/* imported font */
+/* imported font for form*/
 .audiowide-regular {
   font-family: "Audiowide", serif;
   font-weight: 400;
   font-style: normal;
 }
 
+/* imported font for logo */
+@font-face {
+  font-family: norse;
+  src: url(Norse-Bold.otf) format("woff2");
+}
+
 .canvas {
   display: flex;
+  line-height: 1.7;
 }
 
 .banner {
@@ -80,6 +87,24 @@ h6 {
   height: 100vh;
   background-size: cover;
   background-position: center;
+}
+
+.logo img{
+  color: #D7D9CE;
+  width: 15%;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  top: 40%;
+  background-color: rgba(17, 157, 164, 0.2);;
+  font-family: norse;
+  font-size: 5rem;
+  color: #D7D9CE;
 }
 
 .form_area {
@@ -123,7 +148,7 @@ fieldset {
 
 .btn {
   margin: 2rem;
-  margin-left: 4.7rem;
+  margin-left: 5.5rem;
 }
 
 button {
@@ -131,14 +156,14 @@ button {
   border: none;
   padding: 0.4rem;
   border-radius: 8%;
-  color: ;
+  font-weight: 800;
   font-size: 0.9rem;
   font-family: "Audiowide", sans-serif;
 }
 
 .form_area div p {
   margin: 2rem;
-  margin-left: 4.7rem;
+  margin-left: 5.5rem;
   color: antiquewhite;
   font-size: 1.2rem;
   font-family: "Audiowide", sans-serif;
